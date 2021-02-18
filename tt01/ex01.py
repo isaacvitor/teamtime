@@ -3,10 +3,10 @@ from collections import deque
 
 
 def counter_up(stop):
-    cont = 1
-    while cont <= stop:
-        yield cont
-        cont += 1
+    count = 1
+    while count <= stop:
+        yield count
+        count += 1
 
 
 def counter_down(start):
